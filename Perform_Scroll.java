@@ -12,7 +12,7 @@ import org.testng.Assert;
 public class Perform_Scroll {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		
