@@ -15,8 +15,8 @@ public class Perform_Scroll {
 		System.setProperty("webdriver.chrome.driver","..\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		
-		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
+		//https://AutomationPractice/
+		driver.get("https://AutomationPractice/");
 		driver.manage().timeouts().implicitlyWait(6000, TimeUnit.SECONDS);
 		JavascriptExecutor JS= (JavascriptExecutor)driver;
 		JS.executeScript("window.scrollBy(0,500)");
